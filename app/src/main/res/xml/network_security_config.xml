@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<network-security-config>
+    <domain-config>
+        <domain includeSubdomains="true">com.xcg.app</domain>
+        <trust-anchors>
+            <certificates src="@raw/charles_proxy_ssl_proxying_certificate_xcg" />
+        </trust-anchors>
+    </domain-config>
+</network-security-config>
